@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="myjs.js"></script>
+  <title>Unit Converter</title>
+</head>
+<body>
+  <div class="div0">
+    <h1>Unit Converter</h1>
+
+    <div>
+      <label for="value">Value:</label>
+      <input type="number" id="value" />
+    </div>
+
+    <div>
+      <label for="sourceUnit">Source Unit:</label>
+      
+      <select class="custom-select" id="sourceUnit" onchange="updateTargetUnits()" >
+        <option disabled selected value="">Select Source Unit</option>
+        <!-- Length -->
+        <option value="meter">Meter</option>
+        <option value="kilometer">Kilometer</option>
+        <option value="mile">Mile</option>
+      
+        <!-- Mass -->
+        <option value="kilogram">Kilogram</option>
+        <option value="pound">Pound</option>
+        <option value="ounce">Ounce</option>
+      
+        <!-- Temperature -->
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      
+        <!-- Time -->
+        <option value="second">Second</option>
+        <option value="minute">Minute</option>
+        <option value="hour">Hour</option>
+      
+        <!-- Energy -->
+        <option value="joule">Joule</option>
+        <option value="calorie">Calorie</option>
+        <option value="kilowattHour">Kilowatt-Hour</option>
+      </select>
+      
+    </div>
+
+    <div>
+      <label for="targetUnit">Target Unit:</label>
+      <select id="targetUnit" class="custom-select" >
+        <option disabled selected value="">Select target Unit</option>
+        <!-- Target units will be populated dynamically -->
+      </select>
+    </div>
+
+    <button onclick="convert()">Convert</button>
+  </div>
+
+  <div class="div2">
+    <div id="result"></div>
+  </div>
+
+  </body>
+</html>

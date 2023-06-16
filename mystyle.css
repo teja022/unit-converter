@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/images/pexels-mohamed-almari-1485894.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f3d43688;
+ }
+
+.custom-select {
+    padding: 8px;
+    border: 3px solid #aa6e06a9;
+    border-radius: 4px;
+    background-color: #d5a20a1d;
+    color: #0e0e0c;
+    font-size: 17px;
+    font-weight: 520;
+  }
+  
+  .custom-select option {
+    background-color: #fff; /* Change the background color of options */
+    color: #333;
+  }
+  
+h1 {
+      text-align: center;
+    }
+
+.div0{
+  
+    align-items: center;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    background-color: rgba(127, 90, 10, 0.078);
+    border: solid .09cqh;
+}
+    
+label {
+      
+      display: inline-block;
+      width: 150px;
+      margin-bottom: 15px;
+      color: hsl(0, 100%, 2%);
+      font-size:larger;
+      font-weight: 520;
+      
+    }
+
+input[type="number"],
+select {
+      width: 200px;
+      text-align: center;
+      padding: 12px;
+      margin-bottom: 5%;
+      padding: 8px;
+      border: 3px solid #aa6e06;
+      border-radius: 4px;
+      background-color: #bcae8481;
+      color: #0e0e0c;
+      font-size: 19px;
+    }
+
+button {
+      padding: 10px 20px;
+      background-color: #1c0b4fb9;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+
+
+
+#result {
+    
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 4%;
+    padding-bottom: 3%;
+    text-align:center;
+    font-size: 25px;
+    font-weight: bold;
+    border: solid .09cqh;
+    border-color: #1c0b4fb9;
+    align-items: center;
+    text-align: center;
+    text-shadow: 100cm;
+    background-color: rgba(245, 245, 220, 0);
+    color: #f59206 ;
+
+
+    }
+    
+    
